@@ -10,7 +10,7 @@ pipeline {
         echo "Hola Mundo"
       }
     }
-	  stage{
+    stage('cat README'){
       when{
         branch "fix-*"
 		  }
